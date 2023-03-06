@@ -4,7 +4,7 @@ public class Main {
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty",
                 "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
 
-        System.out.println("Now playing the song");
+        
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), new AdPlayer(), 2);
 
         MusicBox mbox2 = new MusicBox("P23FJ78", 'N', "Fly High", "Skyfall", "Into the Unknown", "Pop", "Music Universe", "Beats by Aria");
